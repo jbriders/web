@@ -1,0 +1,13 @@
+html {
+    font-size: 100%; /* ブラウザのデフォルト設定に基づく */
+}
+@media (max-width: 960px) {
+    html {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 520px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
