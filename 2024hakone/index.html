@@ -1,0 +1,32 @@
+<html>
+    <script type="text/javascript">
+       function gate() {
+          var UserInput = prompt("パスワードを入力して下さい:","");
+          location.href = UserInput + ".html";
+       }
+    </script>
+
+    <head>
+        <meta charset="utf-8">
+        <title>JB-RIDERS 2024 Hakone Meeting</title>
+        <style>
+            .img_style {
+                max-width: 50%;
+                height: auto;
+            }
+
+        body {
+        	background-color: black;
+        }
+        </style>
+
+    </head>
+    <body>
+        <center>
+            <div>
+            <img src="image_top.jpg" class="img_style"><br>
+            </div>
+            <input type="button" value="DMでお伝えしたパスワードを用意してこのボタンをプッシュ！" onclick="gate();">
+        </center>
+    </body>
+</html>
